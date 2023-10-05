@@ -24,7 +24,7 @@ function ResumeNew() {
                 <img
                     src={TGirl}
                     alt="Resume-Girl"
-                    className="img-fluid"
+                    className="img-nav"
                     style={{ maxHeight: "450px" }}
                 />
                 {/* <Row style={{ justifyContent: "center", position: "relative" }}>

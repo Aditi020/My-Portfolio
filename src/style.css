@@ -284,6 +284,10 @@ button:focus {
     margin-right: 25%;
 }
 
+.img-nav{
+    margin-top:30px;
+}
+
 .home-content {
     padding: 9rem 0 2rem !important;
     color: whitesmoke;
@@ -648,7 +652,7 @@ button:focus {
 
 .resume-section {
     position: relative !important;
-    padding-top: 60px !important;
+    padding-top: 20px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
     color: white !important;
@@ -657,7 +661,7 @@ button:focus {
 }
 
 .resume {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-bottom: 50px;
     justify-content: center;
 }
