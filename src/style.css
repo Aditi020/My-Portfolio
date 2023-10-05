@@ -1,13 +1,13 @@
 html {
     --section-background-color: linear-gradient(to bottom left,
-            rgba(17, 16, 16, 0.582),
-            rgba(12, 8, 24, 0.904));
+            rgba(27, 26, 26, 0.582),
+            rgba(17, 12, 33, 0.904));
 
     --image-gradient: linear-gradient(to bottom left,
-            rgba(17, 16, 16, 0.678),
-            rgba(12, 10, 22, 0.863));
+            rgba(26, 25, 25, 0.678),
+            rgba(17, 14, 33, 0.863));
 
-    --imp-text-color: #c770f0;
+    --imp-text-color: #5da3f3;
 }
 
 .purple {
@@ -53,18 +53,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #2d1950;
+    background: #0a4066;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(178, 121, 216, 0.959);
+    background: rgba(15, 52, 132, 0.959);
     border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(222, 130, 235, 0.911);
+    background: rgba(17, 75, 211, 0.911);
     border-radius: 12px;
 }
 
@@ -93,7 +93,7 @@ button:focus {
 
 .navbar-toggler span {
     display: block !important;
-    background-color: #be50f4 !important;
+    background-color: #5081f4 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -192,7 +192,7 @@ button:focus {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #c95bf5;
+    background: #5b89f5;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -277,6 +277,13 @@ button:focus {
 
 }
 
+.img-Girl {
+    height:70%;
+    width:53%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .home-content {
     padding: 9rem 0 2rem !important;
     color: whitesmoke;
@@ -294,18 +301,18 @@ button:focus {
 }
 
 .main-name {
-    color: #cd5ff8;
+    color: #cc8f9d;
 }
 
 .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #be6adf !important;
+    color: #cc8f9d !important;
     font-weight: 600 !important;
 }
 
 .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #b562d6 !important;
+    color: #27b1ed !important;
 }
 
 @media (max-width: 767px) {
@@ -337,9 +344,9 @@ button:focus {
     position: relative;
     padding-bottom: 80px !important;
     padding-top: 70px !important;
-    background: #181a27b3;
+    background: #0c0e21b3;
     margin-bottom: -28px;
-    /* margin-left:5px; */
+    /* margin-left:55px; */
     /* padding-left:5px; */
     /* width: 100%; */
 }
@@ -363,6 +370,7 @@ button:focus {
     text-align: center !important;
     padding-top: 25px;
     color: white !important;
+
 }
 
 .home-about-social-links {
@@ -394,7 +402,7 @@ button:focus {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #68187a;
+    background: #270a09;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -402,23 +410,24 @@ button:focus {
 
 .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #801f95;
+    box-shadow: 0 0 15px #0c2274;
 }
 
 .home-social-icons:hover {
-    color: #87209e;
-    box-shadow: 0 0 5px #87209e;
-    text-shadow: 0 0 2px #87209e;
+    color: #193083;
+    box-shadow: 0 0 5px #193083;
+    text-shadow: 0 0 2px #193083;
 }
 
 .social-icons {
     display: inline-block !important;
     padding-right: 15px;
     padding-left: 15px;
+
 }
 
 .icon-colour {
-    color: #700c86 !important;
+    color: #140a53 !important;
 }
 
 /* --------- */
@@ -466,7 +475,7 @@ button:focus {
 }
 
 .blockquote-footer {
-    color: #a588c0 !important;
+    color: #3165c5 !important;
 }
 
 /* --------- */
@@ -477,7 +486,7 @@ button:focus {
     padding-top: 150px !important;
     padding-bottom: 390px !important;
     background-image: var(--section-background-color) !important;
-    background: #e724dafa;
+    background: #098b4e;
 
 }
 
@@ -490,7 +499,7 @@ button:focus {
 }
 
 .project-card-view {
-    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    box-shadow: 0 4px 5px 3px rgba(36, 57, 134, 0.459) !important;
     color: white !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
@@ -501,7 +510,7 @@ button:focus {
 .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+    box-shadow: 0 4px 4px 5px rgba(12, 27, 41, 0.561) !important;
 }
 
 .blog-card {
@@ -514,7 +523,7 @@ button:focus {
 
 .blog-card-view {
     background-color: transparent !important;
-    box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+    box-shadow: 0 3px 3px 2px rgba(44, 77, 161, 0.512) !important;
     color: white !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
@@ -532,7 +541,7 @@ button:focus {
 .blog-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+    box-shadow: 0 3px 3px 5px rgba(69, 78, 176, 0.65) !important;
 }
 
 .card-img-top {
@@ -549,14 +558,14 @@ button:focus {
 
 .btn-primary {
     color: #fff !important;
-    background-color: #623686 !important;
-    border-color: #623686 !important;
+    background-color: #1c4348 !important;
+    border-color: #1c4348 !important;
 }
 
 .btn-primary:hover {
     color: #fff !important;
-    background-color: #6d20c5d7 !important;
-    border-color: #6d20c5d7 !important;
+    background-color: #0a4fa9d7 !important;
+    border-color: #0a4fa9d7 !important;
 }
 
 .btn:focus {
@@ -588,12 +597,12 @@ button:focus {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    border: 1.7px solid rgba(137, 151, 230, 0.637) !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px rgba(4, 18, 168, 0.137) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
 }
@@ -607,7 +616,7 @@ button:focus {
 .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+    border: 2.2px solid rgba(115, 165, 230, 0.883) !important;
 }
 
 .tech-icon-images {
@@ -639,14 +648,16 @@ button:focus {
 
 .resume-section {
     position: relative !important;
-    padding-top: 110px !important;
+    padding-top: 60px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
     color: white !important;
+    background: #16795f;
+    margin-top: -15px;
 }
 
 .resume {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
     justify-content: center;
 }
@@ -681,14 +692,14 @@ button:focus {
 .resume .resume-item {
     padding: 0 0 10px 25px;
     margin-top: -2px;
-    border-left: 2px solid #8a49a8;
+    border-left: 2px solid #4356cf;
     position: relative;
 }
 
 .resume .resume-item .resume-title {
     line-height: 18px;
     font-size: 0.9em;
-    background: #5234795d;
+    background: #26325a5d;
     padding: 8px 15px;
     display: inline-block;
     font-weight: 600;
@@ -718,7 +729,7 @@ button:focus {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #8a49a8;
+    border: 2px solid #3851b7;
 }
 
 .like-item {
@@ -728,8 +739,8 @@ button:focus {
 }
 
 .like-btn {
-    background-color: #934cce5e !important;
-    border-color: #934cce5e !important;
+    background-color: #405dd35e !important;
+    border-color: #3941db5e !important;
     padding: 0.25rem 0.98rem !important;
     border-radius: 5px !important;
     line-height: 1.4 !important;
@@ -738,8 +749,8 @@ button:focus {
 
 .like-btn:hover {
     transform: translateY(-2px) !important;
-    background-color: #a24dd386 !important;
-    border-color: #a24dd386 !important;
+    background-color: #0e4ca286 !important;
+    border-color: #0e4ca286 !important;
 }
 
 .animate-like {
@@ -765,7 +776,7 @@ button:focus {
 
 .fork-btn-inner {
     line-height: 1.4em !important;
-    background-color: #934cce5e !important;
+    background-color: #4c7cce5e !important;
     padding: 0.25rem 1.1rem !important;
     vertical-align: middle !important;
     text-align: center !important;
@@ -773,8 +784,9 @@ button:focus {
 
 .fork-btn-inner:hover {
     transform: translateY(-2px) !important;
-    background-color: #a24dd386 !important;
-    border-color: #a24dd386 !important;
+    /* transform: perspective(1px) translateZ(0); */
+    background-color: #4d85d386 !important;
+    border-color: #4d80d386 !important;
 }
 
 .fork-btn-inner::after {

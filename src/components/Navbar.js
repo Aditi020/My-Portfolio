@@ -5,13 +5,14 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/Logo-m.svg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+// import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
-    AiFillStar,
+    // AiFillGithub,
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
+    AiFillGithub
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -108,8 +109,8 @@ function NavBar() {
                                 target="_blank"
                                 className="fork-btn-inner"
                             >
-                                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                                <AiFillStar style={{ fontSize: "1.1em" }} />
+                                {/* <CgGitFork style={{ fontSize: "1.2em" }} />{" "} */}
+                                <AiFillGithub style={{ fontSize: "1.6em" }} />
                             </Button>
                         </Nav.Item>
                     </Nav>

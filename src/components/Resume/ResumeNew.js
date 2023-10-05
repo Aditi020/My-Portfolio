@@ -3,6 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Resume.pdf";
+import TGirl from "../../Assets/TopGirl.png";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -20,6 +21,12 @@ function ResumeNew() {
         <div>
             <Container fluid className="resume-section">
                 <Particle />
+                <img
+                    src={TGirl}
+                    alt="Resume-Girl"
+                    className="img-fluid"
+                    style={{ maxHeight: "450px" }}
+                />
                 {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -28,7 +35,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row> */}
 

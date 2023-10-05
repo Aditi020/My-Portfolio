@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
+import BottomGirl from "../../Assets/BottomGirl.png";
 import Particle from "../Particle";
 import {
     AiFillGithub,
@@ -13,7 +14,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
     return (
         <Container fluid className="home-about-section" id="about">
-            <Particle/>
+            <Particle />
             <Container>
                 <Row>
                     <Col md={8} className="home-about-description">
@@ -42,7 +43,7 @@ function Home2() {
                             <br />
                             Whenever possible, I also apply my passion for developing products
                             with
-                            <b className="purple">Node.js</b> and 
+                            <b className="purple">Node.js</b> and
                             <i>
                                 <b className="purple">
                                     {" "}
@@ -63,10 +64,17 @@ function Home2() {
                 </Row>
                 <Row>
                     <Col md={12} className="home-about-social">
-                        <h1>FIND ME ON</h1>
-                        <p>
-                            Feel free to <span className="purple">connect </span>with me
-                        </p>
+                        {/* <h1>DISCOVER ME AT</h1> */}
+                        <img
+                            src={BottomGirl}
+                            alt="BottomGirl"
+                            className="img-Girl"
+                            style={{ maxHeight: "450px" }}
+                        />
+                        <h1>DISCOVER ME AT</h1>
+                        {/* <p>
+                            Keep <span className="purple">tabs </span>on me at
+                        </p> */}
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
@@ -80,7 +88,7 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://twitter.com/Aditi_2402"
+                                    href="https://twitter.com/Aditi_K24"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
