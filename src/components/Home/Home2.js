@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
+import Particle from "../Particle";
 import {
     AiFillGithub,
     AiOutlineTwitter,
@@ -12,6 +13,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
     return (
         <Container fluid className="home-about-section" id="about">
+            <Particle/>
             <Container>
                 <Row>
                     <Col md={8} className="home-about-description">
@@ -40,7 +42,7 @@ function Home2() {
                             <br />
                             Whenever possible, I also apply my passion for developing products
                             with
-                            {/* <b className="purple">Node.js</b> and  */}
+                            <b className="purple">Node.js</b> and 
                             <i>
                                 <b className="purple">
                                     {" "}
