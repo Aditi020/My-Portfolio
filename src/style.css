@@ -53,18 +53,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #0a4066;
+    background: #134569;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(15, 52, 132, 0.959);
+    background: rgba(19, 68, 91, 0.959);
     border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(17, 75, 211, 0.911);
+    background: rgba(19, 68, 91, 0.959);
     border-radius: 12px;
 }
 
@@ -280,8 +280,9 @@ button:focus {
 .img-Girl {
     height:70%;
     width:53%;
-    margin-left: 25%;
+    margin-left: 22.5%;
     margin-right: 25%;
+    margin-bottom: -2%;
 }
 
 .img-nav{
@@ -374,7 +375,7 @@ button:focus {
     text-align: center !important;
     padding-top: 25px;
     color: white !important;
-
+    margin-bottom: -4%;
 }
 
 .home-about-social-links {
