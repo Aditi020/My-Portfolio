@@ -43,7 +43,7 @@ function Home2() {
                             <br />
                             Whenever possible, I also apply my passion for developing products
                             with
-                            <b className="purple">Node.js</b> and
+                            <b className="purple"> Node.js</b> and
                             <i>
                                 <b className="purple">
                                     {" "}

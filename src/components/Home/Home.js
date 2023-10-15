@@ -40,11 +40,12 @@ function Home() {
                         </Col>
                     </Row>
                 </Container>
+
                 <Home2 />
                 {/* home2 previously was written below last Container */}
             </Container>
 
-        </section>
+            </section>
     );
 }
 

@@ -4,10 +4,10 @@ html {
             rgba(17, 12, 33, 0.904));
 
     --image-gradient: linear-gradient(to bottom left,
-            rgba(26, 25, 25, 0.678),
-            rgba(17, 14, 33, 0.863));
+            rgba(232, 190, 190, 0.678),
+            rgba(231, 117, 128, 0.863));
 
-    --imp-text-color: #5da3f3;
+    --imp-text-color: #ba3547;
 }
 
 .purple {
@@ -28,7 +28,7 @@ button:focus {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background-color: #0c0513;
+    background-color: #130507;
     background-image: url(./Assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -53,18 +53,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #134569;
+    background: #691330;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(19, 68, 91, 0.959);
+    background: rgba(91, 19, 48, 0.959);
     border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(19, 68, 91, 0.959);
+    background: rgba(45, 11, 22, 0.959);
     border-radius: 12px;
 }
 
@@ -72,9 +72,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-    background-color: #1b1a2ea9 !important;
+    background-color: #2f171fa9 !important;
     transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    box-shadow: 0px 10px 10px 0px rgba(34, 5, 14, 0.171) !important;
     backdrop-filter: blur(15px) !important;
 }
 
@@ -93,7 +93,7 @@ button:focus {
 
 .navbar-toggler span {
     display: block !important;
-    background-color: #5081f4 !important;
+    background-color: #9c2c41 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -140,7 +140,7 @@ button:focus {
     .navbar {
         padding: 1rem 2rem !important;
         font-size: 1.4rem !important;
-        background-color: #181a27 !important;
+        background-color: #592431 !important;
     }
 
     .navbar-nav .nav-item a::after {
@@ -192,7 +192,7 @@ button:focus {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #5b89f5;
+    background: #1f3b4c;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -269,7 +269,9 @@ button:focus {
 .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+    background-image:
+        /* var(--image-gradient), */
+        url(./Assets/home-bg4.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
@@ -278,15 +280,15 @@ button:focus {
 }
 
 .img-Girl {
-    height:70%;
-    width:53%;
+    height: 70%;
+    width: 53%;
     margin-left: 22.5%;
     margin-right: 25%;
     margin-bottom: -2%;
 }
 
-.img-nav{
-    margin-top:30px;
+.img-nav {
+    margin-top: 30px;
 }
 
 .home-content {
@@ -306,18 +308,18 @@ button:focus {
 }
 
 .main-name {
-    color: #cc8f9d;
+    color: #6e192d;
 }
 
 .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #cc8f9d !important;
+    color: #6e192d !important;
     font-weight: 600 !important;
 }
 
 .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #27b1ed !important;
+    color: #ab2556 !important;
 }
 
 @media (max-width: 767px) {
@@ -337,10 +339,21 @@ button:focus {
     padding-top: 8em !important;
 }
 
+
+
 @media (max-width: 767px) {
     .myAvtar {
         padding-top: 2em !important;
         padding-bottom: 2em !important;
+    }
+
+    .img-Girl {
+        /* height: 00%;
+     width: 00%; 
+     margin-left: 0%;
+     margin-right: 0%;  */
+        /* margin-bottom: -14%;  */
+        display: none;
     }
 }
 
@@ -349,11 +362,13 @@ button:focus {
     position: relative;
     padding-bottom: 80px !important;
     padding-top: 70px !important;
-    background: #0c0e21b3;
+    background: #35070abd;
     margin-bottom: -28px;
     /* margin-left:55px; */
     /* padding-left:5px; */
     /* width: 100%; */
+    border: none;
+    border-radius: 14px;
 }
 
 .home-about-description {
@@ -415,13 +430,13 @@ button:focus {
 
 .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #0c2274;
+    box-shadow: 0 0 15px #6e192d;
 }
 
 .home-social-icons:hover {
-    color: #193083;
-    box-shadow: 0 0 5px #193083;
-    text-shadow: 0 0 2px #193083;
+    color: #bd2a4c;
+    box-shadow: 0 0 5px #bd2a4c;
+    text-shadow: 0 0 2px #bd2a4c;
 }
 
 .social-icons {
@@ -432,7 +447,7 @@ button:focus {
 }
 
 .icon-colour {
-    color: #140a53 !important;
+    color: #470c1a !important;
 }
 
 /* --------- */
@@ -440,7 +455,7 @@ button:focus {
 /* --------- */
 .footer {
     /* background-color: rgb(10, 4, 22); */
-    background: #0f111e;
+    background: #470c1a;
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important;
@@ -480,7 +495,7 @@ button:focus {
 }
 
 .blockquote-footer {
-    color: #3165c5 !important;
+    color: #470c1a !important;
 }
 
 /* --------- */
