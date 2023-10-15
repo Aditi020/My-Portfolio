@@ -33,7 +33,7 @@ function Home2() {
                             <br />
                             My field of Interest's are building new &nbsp;
                             <i>
-                                <b className="purple">Front-end Websites </b> and
+                                <b className="purple" color=" #ba3547">Front-end Websites </b> and
                                 also in areas related to{" "}
                                 <b className="purple">
                                     DevOps.
