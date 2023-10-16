@@ -3,13 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Zomato from "../../Assets/Projects/Zomato.png";
-// <<<<<<< HEAD
-
-// import editor from "../../Assets/Projects/codeEditor.png";
-
-// =======
 import editor from "../../Assets/Projects/codeEditor.png";
-// >>>>>>> 7cceac18cddd7644dab29baaa83078207d7cec03
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {

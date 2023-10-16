@@ -512,7 +512,7 @@ button:focus {
     padding-top: 150px !important;
     padding-bottom: 390px !important;
     /* background-image: var(--section-background-color) !important; */
-    background: #705732a1;
+    background: #704d32a1;
 
 }
 
@@ -537,7 +537,7 @@ button:focus {
 .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(115, 83, 18, 0.785) !important;
+    box-shadow: 0 4px 4px 5px rgba(58, 40, 18, 0.785) !important;
 }
 
 .blog-card {
