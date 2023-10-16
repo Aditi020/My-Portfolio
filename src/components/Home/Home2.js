@@ -19,7 +19,7 @@ function Home2() {
                 <Row>
                     <Col md={8} className="home-about-description">
                         <h1 style={{ fontSize: "2.6em" }}>
-                            LET ME <span className="purple"> INTRODUCE </span> MYSELF
+                            LET ME <span className="red"> INTRODUCE </span> MYSELF
                         </h1>
                         <p className="home-about-body">
                             I fell in love with programming and I have at least learnt
@@ -27,15 +27,15 @@ function Home2() {
                             <br />
                             <br />I am fluent in classics like
                             <i>
-                                <b className="purple"> C++, Javascript . </b>
+                                <b className="red"> C++, Javascript . </b>
                             </i>
                             <br />
                             <br />
                             My field of Interest's are building new &nbsp;
                             <i>
-                                <b className="purple" color=" #ba3547">Front-end Websites </b> and
+                                <b className="red" color=" #ba3547">Front-end Websites </b> and
                                 also in areas related to{" "}
-                                <b className="purple">
+                                <b className="red">
                                     DevOps.
                                 </b>
                             </i>
@@ -43,16 +43,16 @@ function Home2() {
                             <br />
                             Whenever possible, I also apply my passion for developing products
                             with
-                            <b className="purple"> Node.js</b> and
+                            <b className="red"> Node.js</b> and
                             <i>
-                                <b className="purple">
+                                <b className="red">
                                     {" "}
                                     Modern Javascript Library and Frameworks
                                 </b>
                             </i>
                             &nbsp; like
                             <i>
-                                <b className="purple"> React.js </b>
+                                <b className="red"> React.js </b>
                             </i>
                         </p>
                     </Col>
@@ -73,7 +73,7 @@ function Home2() {
                         />
                         <h1>DISCOVER ME AT</h1>
                         {/* <p>
-                            Keep <span className="purple">tabs </span>on me at
+                            Keep <span className="red">tabs </span>on me at
                         </p> */}
                         <ul className="home-about-social-links">
                             <li className="social-icons">

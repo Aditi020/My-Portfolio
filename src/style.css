@@ -4,17 +4,18 @@ html {
             rgba(17, 12, 33, 0.904));
 
     --image-gradient: linear-gradient(to bottom left,
-            rgba(232, 190, 190, 0.678),
-            rgba(231, 117, 128, 0.863));
+            rgba(243, 200, 200, 0.678),
+            rgba(227, 111, 122, 0.863));
 
     --imp-text-color: rgb(144, 198, 249);
 }
 
 .purple {
     color: var(--imp-text-color) !important;
-
 }
-
+.red{
+    color: #ea9bad;
+}
 .brown {
     color: #4c321f;
 }
@@ -275,7 +276,7 @@ button:focus {
     position: relative;
     z-index: -1;
     background-image:
-        /* var(--image-gradient), */
+        var(--image-gradient),
         url(./Assets/home-bg4.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -313,12 +314,12 @@ button:focus {
 }
 
 .main-name {
-    color: #6e192d;
+    color: #98223e;
 }
 
 .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #6e192d !important;
+    color: #98223e !important;
     font-weight: 600 !important;
 }
 
@@ -367,7 +368,7 @@ button:focus {
     position: relative;
     padding-bottom: 80px !important;
     padding-top: 70px !important;
-    background: #35070abd;
+    background: #35070aaf;
     margin-bottom: -28px;
     /* margin-left:55px; */
     /* padding-left:5px; */
@@ -435,7 +436,7 @@ button:focus {
 
 .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #6e192d;
+    box-shadow: 0 0 15px #98223e;
 }
 
 .home-social-icons:hover {
