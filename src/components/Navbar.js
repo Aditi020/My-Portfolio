@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
-    // AiFillGithub,
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
     AiFillGithub
 } from "react-icons/ai";
+
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -102,7 +102,15 @@ function NavBar() {
                                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
                             </Nav.Link>
                         </Nav.Item>
-
+                        {/* <Nav.Item>
+                            <Nav.Link
+                                as={Link}
+                                to="/contact"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <GoPerson style={{ marginBottom: "2px" }} /> Contact
+                            </Nav.Link>
+                        </Nav.Item> */}
                         <Nav.Item className="fork-btn">
                             <Button
                                 href="https://github.com/Aditi020"
@@ -113,7 +121,8 @@ function NavBar() {
                                 <AiFillGithub style={{ fontSize: "1.6em" }} />
                             </Button>
                         </Nav.Item>
-                    </Nav>
+                    
+                        </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
