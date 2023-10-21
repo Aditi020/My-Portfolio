@@ -4,8 +4,8 @@ html {
             rgba(17, 12, 33, 0.904));
 
     --image-gradient: linear-gradient(to bottom left,
-            rgba(243, 200, 200, 0.678),
-            rgba(227, 111, 122, 0.863));
+            rgba(247, 223, 223, 0.678),
+            rgba(242, 207, 210, 0.863));
 
     --imp-text-color: rgb(144, 198, 249);
 }
@@ -371,7 +371,7 @@ button:focus {
     position: relative;
     padding-bottom: 80px !important;
     padding-top: 70px !important;
-    background: #35070aaf;
+    background: #4d181ba5;
     margin-bottom: -28px;
     /* margin-left:55px; */
     /* padding-left:5px; */

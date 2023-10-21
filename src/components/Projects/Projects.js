@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import Zomato from "../../Assets/Projects/Zomato.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Portfolio from "../../Assets/Projects/portfolio.png"
+import Wanderlust from "../../Assets/Projects/Wanderlust.png"
 
 function Projects() {
     return (
@@ -44,6 +46,28 @@ function Projects() {
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={Zomato}
+                            isBlog={false}
+                            title="Zomato Website"
+                            description="Clone of Zomato website made using only basic HTML, CSS, and JavaScript"
+                        // ghLink=""
+                        // demoLink=""
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={Wanderlust}
+                            isBlog={false}
+                            title="Zomato Website"
+                            description="Clone of Zomato website made using only basic HTML, CSS, and JavaScript"
+                        // ghLink=""
+                        // demoLink=""
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={Portfolio}
                             isBlog={false}
                             title="Zomato Website"
                             description="Clone of Zomato website made using only basic HTML, CSS, and JavaScript"
