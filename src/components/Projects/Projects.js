@@ -5,8 +5,13 @@ import Particle from "../Particle";
 import Zomato from "../../Assets/Projects/Zomato.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+<<<<<<< HEAD
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Wanderlust from "../../Assets/Projects/Wanderlust.png";
+=======
+import Portfolio from "../../Assets/Projects/portfolio.png"
+import Wanderlust from "../../Assets/Projects/Wanderlust.png"
+>>>>>>> 4265b0363b048fab5d0a5f62eee0e9d2faec75bc
 
 function Projects() {
     return (
@@ -53,12 +58,22 @@ function Projects() {
                         // demoLink=""
                         />
                     </Col>
+<<<<<<< HEAD
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={Portfolio}
                             isBlog={false}
                             title="Portfolio"
                             description="An online code editor in which you can write and test your code of HTML, CSS and JavaScript."
+=======
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={Wanderlust}
+                            isBlog={false}
+                            title="Zomato Website"
+                            description="Clone of Zomato website made using only basic HTML, CSS, and JavaScript"
+>>>>>>> 4265b0363b048fab5d0a5f62eee0e9d2faec75bc
                         // ghLink=""
                         // demoLink=""
                         />
@@ -66,9 +81,15 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
+<<<<<<< HEAD
                             imgPath={Wanderlust}
                             isBlog={false}
                             title="Wanderlust"
+=======
+                            imgPath={Portfolio}
+                            isBlog={false}
+                            title="Zomato Website"
+>>>>>>> 4265b0363b048fab5d0a5f62eee0e9d2faec75bc
                             description="Clone of Zomato website made using only basic HTML, CSS, and JavaScript"
                         // ghLink=""
                         // demoLink=""
