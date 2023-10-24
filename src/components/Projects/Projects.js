@@ -4,14 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Zomato from "../../Assets/Projects/Zomato.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-<<<<<<< HEAD
+import Blog from "../../Assets/Projects/Blog.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Wanderlust from "../../Assets/Projects/Wanderlust.png";
-=======
-import Portfolio from "../../Assets/Projects/portfolio.png"
-import Wanderlust from "../../Assets/Projects/Wanderlust.png"
->>>>>>> 4265b0363b048fab5d0a5f62eee0e9d2faec75bc
+
 
 function Projects() {
     return (
@@ -28,10 +24,41 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={bitsOfCode}
+                            imgPath={Blog}
                             isBlog={false}
-                            title="Bits-0f-C0de"
-                            description="My personal blog page build with HTML5 and Tailwind Css which takes the content from hashnode  and renders it. Supports dark mode."
+                            title="DevQuill"
+                            description="My personal blog page build with HTML5, React JS and CSS which is completely responsive, where I document my experience and share my tech journey."
+                        // ghLink=""
+                        // demoLink=""
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={Zomato}
+                            isBlog={false}
+                            title="Zomato Website"
+                            description="A clone of Zomato website made using only basic HTML, CSS, and JavaScript. It is fully responsive in nature which means It can work perfectly on almost any device regardless of its dimensions and size."
+                        // ghLink=""
+                        // demoLink=""
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={Wanderlust}
+                            isBlog={false}
+                            title="Wanderlust"
+                            description="It's a go-to travel booking site which is built using React Js library, HTML5 and CSS. It's a completely responsive website With the added convenience of sign-up authentication,"
+                        // ghLink=""
+                        // demoLink=""
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={Portfolio}
+                            isBlog={false}
+                            title="Portfolio"
+                            description="It is a React based Portfolio Web Application which is completely responsive and user friendly. It's a website where you can explore my journey, and see how my skills can benefit your projects"
                         // ghLink=""
                         // demoLink=""
                         />
@@ -42,59 +69,12 @@ function Projects() {
                             imgPath={editor}
                             isBlog={false}
                             title="Editor.io"
-                            description="An online code editor in which you can write and test your code of HTML, CSS and JavaScript."
+                            description="Code, see, and learn in real-time. An online code editor in which provides a virtual coding playground where you can write and preview HTML, CSS, and JS code in real-time.."
                         // ghLink=""
                         // demoLink=""
                         />
                     </Col>
 
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={Zomato}
-                            isBlog={false}
-                            title="Zomato Website"
-                            description="Clone of Zomato website made using only basic HTML, CSS, and JavaScript"
-                        // ghLink=""
-                        // demoLink=""
-                        />
-                    </Col>
-<<<<<<< HEAD
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={Portfolio}
-                            isBlog={false}
-                            title="Portfolio"
-                            description="An online code editor in which you can write and test your code of HTML, CSS and JavaScript."
-=======
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={Wanderlust}
-                            isBlog={false}
-                            title="Zomato Website"
-                            description="Clone of Zomato website made using only basic HTML, CSS, and JavaScript"
->>>>>>> 4265b0363b048fab5d0a5f62eee0e9d2faec75bc
-                        // ghLink=""
-                        // demoLink=""
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-<<<<<<< HEAD
-                            imgPath={Wanderlust}
-                            isBlog={false}
-                            title="Wanderlust"
-=======
-                            imgPath={Portfolio}
-                            isBlog={false}
-                            title="Zomato Website"
->>>>>>> 4265b0363b048fab5d0a5f62eee0e9d2faec75bc
-                            description="Clone of Zomato website made using only basic HTML, CSS, and JavaScript"
-                        // ghLink=""
-                        // demoLink=""
-                        />
-                    </Col>
                 </Row>
             </Container>
         </Container>
