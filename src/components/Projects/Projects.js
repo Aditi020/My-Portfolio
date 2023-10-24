@@ -28,7 +28,7 @@ function Projects() {
                             isBlog={false}
                             title="DevQuill"
                             description="My personal blog page build with HTML5, React JS and CSS which is completely responsive, where I document my experience and share my tech journey."
-                        // ghLink=""
+                            ghLink="https://github.com/Aditi020/DevQuill"
                         // demoLink=""
                         />
                     </Col>
@@ -38,7 +38,7 @@ function Projects() {
                             isBlog={false}
                             title="Zomato Website"
                             description="A clone of Zomato website made using only basic HTML, CSS, and JavaScript. It is fully responsive in nature which means It can work perfectly on almost any device regardless of its dimensions and size."
-                        // ghLink=""
+                            ghLink="https://github.com/Aditi020/Zomato-Clone"
                         // demoLink=""
                         />
                     </Col>
@@ -48,7 +48,7 @@ function Projects() {
                             isBlog={false}
                             title="Wanderlust"
                             description="It's a go-to travel booking site which is built using React Js library, HTML5 and CSS. It's a completely responsive website With the added convenience of sign-up authentication,"
-                        // ghLink=""
+                            ghLink="https://github.com/Aditi020/Wanderlust"
                         // demoLink=""
                         />
                     </Col>
@@ -59,7 +59,7 @@ function Projects() {
                             isBlog={false}
                             title="Portfolio"
                             description="It is a React based Portfolio Web Application which is completely responsive and user friendly. It's a website where you can explore my journey, and see how my skills can benefit your projects"
-                        // ghLink=""
+                            ghLink="https://github.com/Aditi020/My-Portfolio"
                         // demoLink=""
                         />
                     </Col>
@@ -70,7 +70,7 @@ function Projects() {
                             isBlog={false}
                             title="Editor.io"
                             description="Code, see, and learn in real-time. An online code editor in which provides a virtual coding playground where you can write and preview HTML, CSS, and JS code in real-time.."
-                        // ghLink=""
+                            ghLink="https://github.com/Aditi020/Live-Code-Editor"
                         // demoLink=""
                         />
                     </Col>
