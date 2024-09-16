@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Zomato from "../../Assets/Projects/Zomato.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import Blog from "../../Assets/Projects/Blog.png";
+import Blog from "../../Assets/Projects/Portfolio.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Wanderlust from "../../Assets/Projects/Wanderlust.png";
 
