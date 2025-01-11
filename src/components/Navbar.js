@@ -54,7 +54,7 @@ function NavBar() {
                     <span></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ms-auto" defaultActiveKey="#home">
+                    <Nav className="ms-auto" defaultActiveKey="#home" style={{fontSize:"18px" }}>
                         <Nav.Item>
                             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home

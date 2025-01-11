@@ -80,7 +80,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-    background-color: #2f171fa9 !important;
+    background-color: #393637a9 !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 10px 10px 0px rgba(34, 5, 14, 0.171) !important;
     backdrop-filter: blur(15px) !important;
@@ -101,7 +101,7 @@ button:focus {
 
 .navbar-toggler span {
     display: block !important;
-    background-color: #9c2c41 !important;
+    background-color: #877d7f !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -311,6 +311,80 @@ button:focus {
     font-size: 2.5em !important;
     padding-left: 45px !important;
     
+}
+
+/* Responsive styles for screens smaller than 1200px (e.g., tablets) */
+
+/* Responsive styles for screens smaller than 1200px (e.g., tablets) */
+@media (max-width: 1200px) {
+    .heading {
+        font-size: 2.1em !important;
+        padding-left: 40px !important;
+    }
+
+    .heading-name {
+        font-size: 2.2em !important;
+        padding-left: 35px !important;
+    }
+
+    /* Container responsiveness */
+    .resume-section {
+        padding: 20px !important; /* Adjust container padding for smaller screens */
+    }
+
+    /* Image responsiveness */
+    .img-nav {
+        max-height: 400px !important; /* Reduce image size for smaller screens */
+        width: auto; /* Ensure image maintains aspect ratio */
+    }
+}
+
+/* Responsive styles for screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.8em !important;
+        padding-left: 30px !important;
+    }
+
+    .heading-name {
+        font-size: 1.9em !important;
+        padding-left: 25px !important;
+    }
+
+    /* Container responsiveness */
+    .resume-section {
+        padding: 15px !important; /* Less padding for mobile screens */
+    }
+
+    /* Image responsiveness */
+    .img-nav {
+        max-height: 350px !important; /* Further reduce image size */
+        width: auto !important; /* Make the image take full width */
+    }
+}
+
+/* Responsive styles for screens smaller than 480px (e.g., smaller mobile devices) */
+@media (max-width: 480px) {
+    .heading {
+        font-size: 1.5em !important;
+        padding-left: 20px !important;
+    }
+
+    .heading-name {
+        font-size: 1.6em !important;
+        padding-left: 15px !important;
+    }
+
+    /* Container responsiveness */
+    .resume-section {
+        padding: 10px !important; /* Further reduce padding for very small screens */
+    }
+
+    /* Image responsiveness */
+    .img-nav {
+        max-height: 300px !important; /* Further reduce the image size */
+        width: auto !important; /* Ensure image is full width */
+    }
 }
 
 @media (max-width: 767px) {

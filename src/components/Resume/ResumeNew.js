@@ -24,8 +24,8 @@ function ResumeNew() {
                 <img
                     src={TGirl}
                     alt="Resume-Girl"
-                    className="img-nav"
-                    style={{ maxHeight: "450px" }}
+                    className="img-top"
+                    style={{ maxHeight: "370px" }}
                 />
                 {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
