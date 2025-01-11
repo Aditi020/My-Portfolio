@@ -271,10 +271,6 @@ button:focus {
     height: 100%;
 }
 
-.home-header {
-    padding-top: 80px !important;
-}
-
 .home-section {
     position: relative;
     z-index: -1;
@@ -283,8 +279,8 @@ button:focus {
         url(./Assets/home-bg4.jpg);
     background-position: top center;
     background-repeat: no-repeat;
-    padding-bottom: 30px !important;
-    padding-top: 30px !important;
+    /* padding-bottom: 30px !important; */
+    /* padding-top: 30px !important; */
 
 }
 
@@ -314,6 +310,19 @@ button:focus {
 .heading-name {
     font-size: 2.5em !important;
     padding-left: 45px !important;
+    
+}
+
+@media (max-width: 767px) {
+    .home-header {
+        text-align: center;
+        /* Align text to center on small screens */
+    }
+
+    .img-fluid {
+        margin-top: 20px;
+        /* Add spacing between text and image */
+    }
 }
 
 .main-name {
@@ -370,7 +379,7 @@ button:focus {
 .home-about-section {
     position: relative;
     padding-bottom: 80px !important;
-    padding-top: 70px !important;
+    /* padding-top: 70px !important; */
     background: #4d181ba5;
     margin-bottom: -28px;
     /* margin-left:55px; */
@@ -456,7 +465,7 @@ button:focus {
 }
 
 .icon-colour {
-    color: #470c1a !important;
+    color: #af7d88 !important;
 }
 
 /* --------- */
@@ -464,7 +473,7 @@ button:focus {
 /* --------- */
 .footer {
     /* background-color: rgb(10, 4, 22); */
-    background: #343131;
+    background: #b37e7e;
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important;
