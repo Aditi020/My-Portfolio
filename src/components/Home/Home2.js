@@ -16,8 +16,8 @@ function Home2() {
         <Container fluid className="home-about-section" id="about">
             <Particle />
             <Container>
-                <Row>
-                    <Col md={8} className="home-about-description">
+                <Row >
+                    <Col md={8} className="home-about-description" style={{ marginTop: "-3%" }}>
                         <h1 style={{ fontSize: "2.6em" }}>
                             LET ME <span className="red"> INTRODUCE </span> MYSELF
                         </h1>
@@ -58,7 +58,7 @@ function Home2() {
                     </Col>
                     <Col md={4} className="myAvtar">
                         <Tilt>
-                            <img src={myImg} className="img-fluid" alt="avatar"  style={{marginTop:"-25%"}}/>
+                            <img src={myImg} className="img-fluid" alt="avatar"  style={{marginTop:"-32%"}}/>
                         </Tilt>
                     </Col>
                 </Row>
@@ -69,7 +69,7 @@ function Home2() {
                             src={BottomGirl}
                             alt="BottomGirl"
                             className="img-Girl"
-                            style={{ maxHeight: "450px" }}
+                            style={{ maxHeight: "450px" , marginTop:"-3%"}}
                         />
                         <h1>DISCOVER ME AT</h1>
                         {/* <p>
